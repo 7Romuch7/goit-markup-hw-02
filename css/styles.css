@@ -1,0 +1,124 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --complementary-color: rgba(255, 255, 255, 0.6);
+    --complementary-color2: rgba(255, 255, 255, 0.4);
+}
+
+.body {
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+}
+
+.logo .logo-black {
+    color: black;
+}
+
+.logo-blue {
+    color: var(--accent-color);
+}
+
+ul {
+    list-style: none;
+}
+
+/* site-nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.auth-nav .info {
+    color: var(--primary-text-color);
+}
+
+.auth-nav .info:hover,
+.auth-nav .info:focus {
+    color: var(--accent-color);
+}
+
+/* hero */
+
+.hero-title {
+   color: var(--white-color);
+}
+
+/* section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* features */
+
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+/* activity */
+
+.activity-list .example {
+    color: var(--white-color);
+}
+
+/* team */
+
+.team-list .title {
+    color: var(--title-text-color);
+}
+
+.links-list .social-link {
+    color: var(--primary-text-color);
+}
+
+.links-list .social-link:hover,
+.links-list .social-link:focus {
+    color: var(--accent-color);
+}
+
+/* footer */
+
+.logo .logo-white {
+    color: var(--white-color);
+}
+
+.address-list .location {
+    color: var(--white-color);
+}
+
+.address-list .info-2 {
+    color: var(--complementary-color);
+}
+
+.invitation {
+    color: var(--white-color);
+}
+
+.links-list-2 .social-link-2 {
+    color: var(--white-color);
+}
+
+.links-list-2 .social-link-2:hover,
+.links-list-2 .social-link-2:focus {
+    color: var(--accent-color);
+}
+
+.copyright {
+   color: var(--complementary-color2);
+}
+
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* белый #FFFFFF*/
+/* акцент #2196F3 */
