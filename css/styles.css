@@ -7,6 +7,8 @@
     --complementary-color2: rgba(255, 255, 255, 0.4);
 }
 
+/* Стилизация студии*/
+
 .body {
     background-color: var(--white-color);
     color: var(--primary-text-color);
@@ -89,6 +91,10 @@ ul {
 
 /* footer */
 
+.footer {
+    background-color: black;
+}
+
 .logo .logo-white {
     color: var(--white-color);
 }
@@ -116,6 +122,31 @@ ul {
 
 .copyright {
    color: var(--complementary-color2);
+}
+
+/* стилизация порфолио*/
+
+.filter .btn {
+    color: var(--title-text-color);
+}
+
+.filter .btn:hover,
+.filter .btn:focus {
+    color: var(--white-color);
+
+}
+
+.works-list .title-2 {
+    color: var(--title-text-color);
+}
+
+.works-list .description {
+    color: var(--primary-text-color);
+}
+
+.works-list .description-2 {
+    color: var(--white-color);
+    background-color: blue;
 }
 
 /* цвет основного текста #757575 */
