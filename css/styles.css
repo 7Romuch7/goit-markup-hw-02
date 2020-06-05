@@ -1,3 +1,11 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* черный #000000 */
+/* дополнительный цвет rgba(255, 255, 255, 0.6) */
+/* дополнительный цвет2 rgba(255, 255, 255, 0.4)*/
+
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
@@ -17,13 +25,16 @@
     letter-spacing: 0.03em;
 }
 
+.logo {
+    text-decoration: none;
+}
+
 .logo .logo-black {
     color: var(--black-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    text-decoration: none;
 }
 
 .logo-blue {
@@ -32,7 +43,6 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    text-decoration: none;
 }
 
 ul {
@@ -77,15 +87,19 @@ ul {
 
 .hero-title {
     background-color: #2F303A;
-   color: var(--white-color);
-   font-weight: 900;
-   font-size: 44px;
-   line-height: 1.36;
-   text-align: center;
-   letter-spacing: 0.06em;
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .service {
+    text-decoration: none;
+}
+
+.service-title {
     background-color: #2196F3;
     color: var(--white-color);
     font-weight: 700;
@@ -219,12 +233,16 @@ ul {
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
+    font-family: Roboto, sans-serif;
 }
 
 .filter .btn:hover,
 .filter .btn:focus {
     color: var(--white-color);
+}
 
+.example-2 {
+    text-decoration: none;
 }
 
 .works-list .title-2 {
@@ -232,7 +250,7 @@ ul {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.06em;  
 }
 
 .works-list .description {
@@ -245,8 +263,3 @@ ul {
     color: var(--white-color);
     background-color: blue;  
 }
-
-/* цвет основного текста #757575 */
-/* вторичный цвет текста #212121 */
-/* белый #FFFFFF*/
-/* акцент #2196F3 */
